@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Services", "DesignPatterns.Services\DesignPatterns.Services.csproj", "{ADB726D7-CECE-4539-A411-B401DC30A87E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{756C2F56-6267-4C1B-97AB-868318FD258C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DataAccess", "DesignPatterns.DataAccess\DesignPatterns.DataAccess.csproj", "{19B79B90-BEAA-4F99-95E8-CD9B0B50EF0D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Business", "DesignPatterns.Business\DesignPatterns.Business.csproj", "{2F31F220-92DF-4695-BACC-3A310E17E5BF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{44B3B89F-7571-4D48-9E2C-DE92ED575DD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Tests", "DesignPatterns.Tests\DesignPatterns.Tests.csproj", "{7E7C4CC6-4069-436B-9115-37A695808C4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +29,14 @@ Global
 		{44B3B89F-7571-4D48-9E2C-DE92ED575DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44B3B89F-7571-4D48-9E2C-DE92ED575DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44B3B89F-7571-4D48-9E2C-DE92ED575DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756C2F56-6267-4C1B-97AB-868318FD258C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756C2F56-6267-4C1B-97AB-868318FD258C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756C2F56-6267-4C1B-97AB-868318FD258C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756C2F56-6267-4C1B-97AB-868318FD258C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7C4CC6-4069-436B-9115-37A695808C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7C4CC6-4069-436B-9115-37A695808C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7C4CC6-4069-436B-9115-37A695808C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7C4CC6-4069-436B-9115-37A695808C4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
