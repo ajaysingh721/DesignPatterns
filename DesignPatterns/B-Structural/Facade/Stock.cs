@@ -8,7 +8,7 @@ namespace DesignPatterns.Structural.Facade
 
         public bool Invest(int stockId, Money amount)
         {
-            return default;
+            return true;
 
         }
     }

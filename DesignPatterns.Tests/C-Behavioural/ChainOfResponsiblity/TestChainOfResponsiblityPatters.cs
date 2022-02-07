@@ -14,12 +14,12 @@ public class TestChainOFResponsiblity
         var interviewPannel = new InterviewPannel();
 
         // When
-        var score = interviewPannel.Hire(new Candidate()
+        var result = interviewPannel.Hire(new Candidate()
         {
-            score = 80
+            score = 90
         });
 
         // Then
-        score.Should().Be(true);
+        result.Should().Be(true);
     }
 }

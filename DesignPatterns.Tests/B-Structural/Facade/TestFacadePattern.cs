@@ -3,7 +3,7 @@ using FluentAssertions;
 using Xunit;
 
 namespace DesignPatterns.Tests.Structural.Facade;
-class TestFacadepatter
+public class TestFacadepatter
 {
     [Fact]
     public void TestFacade_To_Hide_Complexcity()
